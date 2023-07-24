@@ -156,3 +156,6 @@ footer{
     border-radius: 5px;
     border: none;
 }
+.form-box h2{
+    margin-bottom: 20px;
+}
