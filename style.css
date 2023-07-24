@@ -1,0 +1,158 @@
+*{
+    margin: 0;
+
+}
+.btn-primary{
+       width: 150px;
+       height: 50px;
+       color: white;
+       font-size: 15px;
+       background-color: #F15B22;
+       border: none;
+       border-radius: 5px;
+}
+
+/* header section */
+
+.main-header{
+    background-image: url("images/banner/banner2.png");
+    background-repeat: no-repeat;
+    height: 700px;
+    width: 100%;
+    background-size: auto;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+}
+.header-content{
+    text-align: right;
+    padding-right: 120px;
+}
+.header-content h3{
+    font-size: 45px;
+    padding-bottom: 20px;
+}
+.header-content p{
+    padding-bottom: 20px;
+    font-weight: 400;
+    color: #444343;
+    line-height: 25px;
+}
+
+/* about section */
+
+.about{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 100px 100px;
+}
+
+.about-img {
+    width: 50%;
+}
+.about-details {
+    width: 50%;
+}
+.about-details h3{
+    font-size: 35px;
+    margin-bottom: 20px;
+}
+.about-details p{
+    font-size: 16px;
+    color: #444343;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+.about-details ul{
+    padding: 0;
+}
+.about-details ul li{
+    list-style: none;
+    line-height: 30px;
+    font-size: 16px;
+    font-weight: 500;
+    color: #444343;
+}
+.about-details ul li i{
+    color: #16D887;
+    padding-right: 10px;
+}
+
+/* plans */
+section.plans {
+    margin: 100px 0;
+}
+section.plans h3 {
+    text-align: center;
+    font-size: 35px;
+    margin-bottom: 60px;
+}
+.my-plans {
+    display: flex;
+    justify-content: space-evenly;
+}
+.box{
+    text-align: center;
+}
+.box img {
+    margin-bottom: 15px;
+}
+.box h2 {
+    margin-bottom: 10px;
+}
+.box p {
+    font-size: 16px;
+    color: #737272;
+}
+
+/* img-section */
+.img-section{
+    max-width: 1140px;
+    height: 400px;
+    background-repeat: no-repeat;
+    margin: 0 auto;
+    background-image: url(images/gradient2.png), url('images/watch.png');
+}
+.img-details {
+    display: inline-block;
+    margin: 110px 60px;
+}
+.img-details h2 {
+    font-size: 30px;
+    color: white;
+    margin-bottom: 20px;
+}
+.btn-img{
+    width: 100px;
+    height: 35px;
+    border: none;
+    border-radius: 5px;
+    color: #F15B22;
+    background-color: white;
+}
+
+/* footer section */
+footer{
+    background-color: black;
+    color: white;
+}
+.footer-section{
+    display: flex;
+    justify-content: space-around;
+    padding: 150px 0;
+}
+.future h2 {
+    font-size: 35px;
+    margin-bottom: 15px;
+}
+.future p {
+    margin-bottom: 22px;
+}
+.form-box input {
+    display: block;
+    margin-bottom: 15px;
+    padding: 8px 8px;
+    border-radius: 5px;
+    border: none;
+}
